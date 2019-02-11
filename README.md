@@ -103,3 +103,7 @@ index-servers=pypi
 repository = https://upload.pypi.org/legacy/ 
 username = naviat
 ```
+
+To upload your dist/*.whl file on PyPi, use Twine:
+
+`python -m twine upload dist/*`
