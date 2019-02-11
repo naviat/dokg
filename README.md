@@ -15,7 +15,7 @@ sudo python -m pip install tqdm
 sudo python -m pip install --user --upgrade twine
 ```
 
-1. Setup project
+2. Setup project
 
 - Create folder structure follow this repo
 - Package file sample `dokg`
@@ -57,7 +57,7 @@ setuptools.setup(
 )
 ```
 
-1. Compiling Your Package
+3. Compiling Your Package
 
 Go into your package folder and execute this command: `python setup.py bdist_wheel`. This will create a  structure like this:
 
@@ -86,7 +86,7 @@ Go into your package folder and execute this command: `python setup.py bdist_whe
 
 - `project.egg.info`: An egg package contains compiled bytecode, package information, dependency links, and captures the info used by the setup.py test command when running tests.
 
-1. Upload on pip
+4. Upload on pip
 
 - Create pypirc: The Pypirc file stores the PyPi repository information. Create a file in the home directory
 
@@ -107,3 +107,6 @@ username = naviat
 To upload your dist/*.whl file on PyPi, use Twine:
 
 `python -m twine upload dist/*`
+
+
+### NOTE: When upgrade your package => delete all file in `dist` folder before run the command above 
