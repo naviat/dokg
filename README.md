@@ -2,7 +2,7 @@
  
 ### STEP to upload your package
 
-1.  Install the required packages:
+####  1. Install the required packages:
 
 - `Setuptools`: Setuptools is a package development process library designed for creating and distributing Python packages.
 - `Wheel`: The Wheel package provides a bdist_wheel command for setuptools. It creates .whl file which is directly installable through the pip install command. We'll then upload the same file to pypi.org.
@@ -15,7 +15,7 @@ sudo python -m pip install tqdm
 sudo python -m pip install --user --upgrade twine
 ```
 
-2. Setup project
+#### 2. Setup project
 
 - Create folder structure follow this repo
 - Package file sample `dokg`
@@ -57,7 +57,7 @@ setuptools.setup(
 )
 ```
 
-3. Compiling Your Package
+#### 3. Compiling Your Package
 
 Go into your package folder and execute this command: `python setup.py bdist_wheel`. This will create a  structure like this:
 
@@ -86,7 +86,7 @@ Go into your package folder and execute this command: `python setup.py bdist_whe
 
 - `project.egg.info`: An egg package contains compiled bytecode, package information, dependency links, and captures the info used by the setup.py test command when running tests.
 
-4. Upload on pip
+#### 4. Upload on pip
 
 - Create pypirc: The Pypirc file stores the PyPi repository information. Create a file in the home directory
 
