@@ -1,5 +1,5 @@
-## My test package
-
+## My test package 😁😁😁
+ 
 ### STEP to upload your package
 
 1.  Install the required packages:
@@ -94,7 +94,7 @@ for Windows :  `C:\Users\UserName\.pypirc`
 
 for *nix :   `~/.pypirc`
 
-And add the following content to it. Replace javatechy with your username.
+And add the following content to it. Replace javatechy with your username. 😝😝😝 
 
 ```
 [distutils] 
