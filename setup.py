@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name = 'dokg',
-    version = '0.3',
+    version = '0.4',
     scripts = ['dokg'],
     author = 'Hai V.Dam',
     author_email = 'haidv@tomochain.com',
@@ -17,7 +17,6 @@ setuptools.setup(
     packages = setuptools.find_packages(),
     classifiers = [
          "Programming Language :: Python :: 3",
-         "Programming Language :: Python :: 2",
          "License :: OSI Approved :: MIT License",
          "Operating System :: OS Independent",
     ],
