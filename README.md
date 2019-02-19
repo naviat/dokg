@@ -28,7 +28,7 @@ echo "hey there, this is my first pip package"
 - Make script excecutable:
     `chmod +x dokr`
 
-- Create a setup file setup.py in your package. This file will contain all your package metadata information. 
+- Create a setup file setup.py in your package. This file will contain all your package metadata information.
 
 ```
 import setuptools
@@ -94,7 +94,7 @@ for Windows :  `C:\Users\UserName\.pypirc`
 
 for *nix :   `~/.pypirc`
 
-And add the following content to it. Replace javatechy with your username. 😝😝😝 
+And add the following content to it. Replace username with your username. 😝😝😝 
 
 ```
 [distutils] 
